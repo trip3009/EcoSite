@@ -1,0 +1,119 @@
+
+body {
+/*   background-color: #42afb9; */
+  margin: 0;
+  
+}
+
+header {
+  background-color: #89e3eb;
+  height: 100px;
+  }
+
+/* I wanted to give it a effect of have the seaction hover above the background. */
+.clean-place {
+  background-image: url("lamars_clean.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  } 
+
+/* Really tryed my best, but I didn't get the look I was going for. */
+
+
+/* google fu this the transform stuff. Some how it centers much of my content */
+.keeping-ur-place-clean {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #283529;
+}
+
+img {
+/*   background-color: #89e3eb; */
+  width: 130px;
+  height: 55px;
+  position: absolute;
+  top: 20px;
+  }
+
+
+ 
+.nav ul {
+  background-color: #4caca1;
+  list-style: none;
+  margin: 0 px; 
+  padding-top: 20px;
+  text-align: center;
+  }
+
+
+.nav li {
+  background-color: #4caca1;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+  
+}
+ 
+.nav a {
+  background-color: ##94ccdc;
+}
+
+section {
+  background-color: #94ccdc;
+  width: 840px;
+  padding: 30px;
+  margin: 20px auto 0 auto;
+  
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  background-image: url("https://i.imgur.com/KBfefJm.png");
+  background-repect: no-repeat;
+  background-size: 300px;
+  background-position: center, top;
+  box-sizing: border-box;
+/*   background-repect: no-repeat; */
+  
+  
+ }
+
+#quote-offer-container {
+  background-color: #94ccdc;
+  margin-right: 40px;
+  }
+
+#quote-form-container {
+  background-color: #94ccdc;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  background-color: #4caca1;
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 25px;
+}
+
+button {
+  border: none;
+  background-color: #89e3eb;
+  color: white;
+  height: 40px;
+  width:  80px;
+}
